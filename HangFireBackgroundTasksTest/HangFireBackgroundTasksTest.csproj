@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.7" />
+    <PackageReference Include="Hangfire.Core" Version="1.7.7" />
+    <PackageReference Include="hangfire.memorystorage" Version="1.6.3" />
+    <PackageReference Include="Hangfire.Unity" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Owin" Version="3.0.0" />
+    <PackageReference Include="Nowin" Version="0.26.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.6.0" />
+    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Kine.Core.Common">
+      <HintPath>..\..\..\..\Development\WebAPI\Common\Kine.Core.Common\bin\Debug\net472\Kine.Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Kine.Core.DataAccess">
+      <HintPath>..\..\..\..\Development\WebAPI\Common\Kine.Core.DataAccess\bin\Debug\net472\Kine.Core.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Kine.TaskScheduler.Common">
+      <HintPath>..\..\..\..\Development\Services\TaskScheduler\Kine.TaskScheduler.Common\bin\Debug\Kine.TaskScheduler.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
